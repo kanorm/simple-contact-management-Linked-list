@@ -8,16 +8,16 @@ very simple Linked list for managing contacts by C++ programming language
  linux :
 
 ```bash
-$ git clone https://github.com/kanorm/contacts-management-Linked-list-by-C-.git
-$ cd contacts-management-Linked-list-by-C-
+$ git clone https://github.com/kanorm/simple-contact-management-Linked-list.git
+$ cd simple-contact-management-Linked-list
 $ g++ contact.cpp
 $ ./a.out
 ```
 windows :
 
 ```bash
-C:\> git clone https://github.com/kanorm/contacts-management-Linked-list-by-C-.git
-C:\> cd contacts-management-Linked-list-by-C-
+C:\> git clone https://github.com/kanorm/simple-contact-management-Linked-list.git
+C:\> cd simple-contact-management-Linked-list
 C:\> g++ contact.cpp
 C:\> a
 ```
