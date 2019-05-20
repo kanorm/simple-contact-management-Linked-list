@@ -254,7 +254,12 @@ void contactsList::deleteContact(string serachQuery){
 	}
 	
 	contact* temp = head;
-
+	
+	if( temp->next == NULL ){  		
+		 cout << "\n ================ \n i can't find :|" << endl;
+		 return;	
+	}
+	
 	while( temp->next->getName() != serachQuery && temp->next->getFamilly() != serachQuery && ( head->getName() + " " + head->getFamilly() ) != serachQuery && temp != NULL ){ 
 
 		temp = temp->next;
